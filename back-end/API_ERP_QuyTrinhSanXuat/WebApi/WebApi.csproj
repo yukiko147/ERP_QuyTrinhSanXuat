@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.BanHang\Core.BanHang.csproj" />
+    <ProjectReference Include="..\Core.Kho\Core.Kho.csproj" />
+    <ProjectReference Include="..\Core.MuaHang\Core.MuaHang.csproj" />
+    <ProjectReference Include="..\Core.QuanLyNhanSu\Core.QuanLyNhanSu.csproj" />
+    <ProjectReference Include="..\Core.SanXuat\Core.SanXuat.csproj" />
+  </ItemGroup>
+
+</Project>

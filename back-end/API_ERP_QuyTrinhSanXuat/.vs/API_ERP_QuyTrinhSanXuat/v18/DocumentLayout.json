@@ -1,0 +1,2505 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\service\\s_donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\service\\s_donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\utilities\\pdfcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\utilities\\pdfcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\utilities\\emailstmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\utilities\\emailstmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\service\\s_lenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\service\\s_lenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\core.sanxuat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\core.sanxuat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\service\\s_hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\service\\s_hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\datacontext\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\datacontext\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlybanhang\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlybanhang\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\service\\s_phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\service\\s_phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\service\\s_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\service\\s_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\response\\mres_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\response\\mres_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\request\\mreq_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\request\\mreq_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\service\\s_donmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\service\\s_donmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\core.kho.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\core.kho.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\response\\mres_donmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\response\\mres_donmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\migrations\\20260107170417_dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20260107170417_dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_khovattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_khovattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\service\\s_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\service\\s_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlykho\\khocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlykho\\khocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_khosanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_khosanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlybanhang\\hoadonbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlybanhang\\hoadonbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\service\\s_donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\service\\s_donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\service\\s_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\service\\s_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\service\\s_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\service\\s_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\response\\mres_lenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\response\\mres_lenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\service\\s_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\service\\s_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlybanhang\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlybanhang\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\khosanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\khosanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251230164028_asdl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251230164028_asdl3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251230144803_asdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251230144803_asdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\service\\s_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\service\\s_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\lenhsx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\lenhsx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\chitietchetao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\chitietchetao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\utilities\\stringformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\utilities\\stringformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_dvtinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_dvtinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_dvtinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_dvtinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\response\\mres_chitietchetao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\response\\mres_chitietchetao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\chitietdonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\chitietdonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\chitietphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\chitietphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\chitietphieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\chitietphieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlybanhang\\donvitinhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlybanhang\\donvitinhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\interface\\iquanlybanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\interface\\iquanlybanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\dvtinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\dvtinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlykho\\vattucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlykho\\vattucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\service\\s_vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\service\\s_vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlykho\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlykho\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\donnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\donnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\muahang\\donnhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\muahang\\donnhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\interface\\iquanlymuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\interface\\iquanlymuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlykho\\phieunhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlykho\\phieunhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\request\\mreq_donmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\request\\mreq_donmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\request\\mreq_chitietdonmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\request\\mreq_chitietdonmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\response\\mres_chitietdonmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\response\\mres_chitietdonmua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlykho\\phieuxuatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlykho\\phieuxuatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_chitietphieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_chitietphieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\khochua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\khochua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\apiresponse\\apidataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\apiresponse\\apidataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\core.quanlynhansu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\core.quanlynhansu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_chitietphieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_chitietphieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\utilities\\phongbancode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\utilities\\phongbancode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\jwtsecurity\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\jwtsecurity\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\exceptionresponse\\exceptioncode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\exceptionresponse\\exceptioncode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\exceptionresponse\\exceptionmesseger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\exceptionresponse\\exceptionmesseger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\request\\mreq_phieunhaplenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\request\\mreq_phieunhaplenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlysanxuat\\lenhsanxuatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlysanxuat\\lenhsanxuatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\muahang\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\muahang\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_sanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_sanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\core.muahang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\core.muahang.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\interface\\iquanlysanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\interface\\iquanlysanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\khovattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\khovattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251217022911_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251217022911_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\request\\mreq_lenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\request\\mreq_lenhsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\dataquery\\myquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataquery\\myquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.muahang\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789DD836-BE25-4531-9363-ED82B5F398F6}|Core.MuaHang\\Core.MuaHang.csproj|solutionrelative:core.muahang\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\interface\\iquanlykho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\interface\\iquanlykho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_vattucandung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_vattucandung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\request\\mreq_vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\request\\mreq_vattu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\basicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\basicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\service\\s_nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\service\\s_nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\response\\mres_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\response\\mres_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlynhansu\\nhansucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlynhansu\\nhansucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\request\\mreq_nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\request\\mreq_nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_phuongthucthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251212150722_vlxxzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251212150722_vlxxzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.kho\\response\\mres_vattucandung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE70D4F-DA22-4C8C-888C-35CBE9F68C18}|Core.Kho\\Core.Kho.csproj|solutionrelative:core.kho\\response\\mres_vattucandung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\vattucandung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\vattucandung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\middleware\\queuerequest\\irequestqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\middleware\\queuerequest\\irequestqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\middleware\\queuerequest\\requestqueuemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\middleware\\queuerequest\\requestqueuemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\middleware\\requestinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\middleware\\requestinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\request\\mreq_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\request\\mreq_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\controllers\\quanlybanhang\\phuongthucthanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quanlybanhang\\phuongthucthanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251208172935_d1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251208172935_d1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251208172413_d1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251208172413_d1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\datacontext\\entity\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EF4D89-C20F-47DC-BE09-791F01A340BC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\entity\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207051405_DbInit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251207051405_DbInit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207050731_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251207050731_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207045718_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251207045718_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207003937_12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251207003937_12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251206151624_i1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251206151624_i1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\request\\mreq_chitietchetao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\request\\mreq_chitietchetao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\request\\mreq_congthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\request\\mreq_congthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.sanxuat\\response\\mres_congthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F016176-7169-4E1A-9518-3394D3EDF09E}|Core.SanXuat\\Core.SanXuat.csproj|solutionrelative:core.sanxuat\\response\\mres_congthuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.banhang\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2DA7523-A12F-4DA1-9752-6293EF6385EF}|Core.BanHang\\Core.BanHang.csproj|solutionrelative:core.banhang\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251206014647_update_db123456.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251206014647_update_db123456.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\response\\mres_nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\response\\mres_nhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251201200530_update_db2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251201200530_update_db2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\common\\jwtsecurity\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E33E99-260A-4F75-B468-4C3AC63433D2}|Common\\Common.csproj|solutionrelative:common\\jwtsecurity\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\request\\mreq_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\response\\mres_pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\core.quanlynhansu\\interface\\iquanlynhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD9C4C3B-E072-4440-B142-E915FA698252}|Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj|solutionrelative:core.quanlynhansu\\interface\\iquanlynhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108180608_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251108180608_DbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108180140_UpdateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251108180140_UpdateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108175248_Update-Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20251108175248_Update-Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|e:\\doanerp\\back-end\\api_erp_quytrinhsanxuat\\webapi\\helper\\httputillties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD12FD8-34C6-4A9B-9E28-633AA3AC8B7C}|WebApi\\WebApi.csproj|solutionrelative:webapi\\helper\\httputillties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\DonHangController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyBanHang\\DonHangController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\DonHangController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyBanHang\\DonHangController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwGQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T15:04:38.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSTMP.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\EmailSTMP.cs",
+              "RelativeDocumentMoniker": "Common\\Utilities\\EmailSTMP.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\EmailSTMP.cs",
+              "RelativeToolTip": "Common\\Utilities\\EmailSTMP.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwD4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:54:47.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\DataContext\\MyContext.cs",
+              "RelativeDocumentMoniker": "DataContext\\DataContext\\MyContext.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\DataContext\\MyContext.cs",
+              "RelativeToolTip": "DataContext\\DataContext\\MyContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T01:30:53.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "S_HoaDonBan.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_HoaDonBan.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Service\\S_HoaDonBan.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_HoaDonBan.cs",
+              "RelativeToolTip": "Core.BanHang\\Service\\S_HoaDonBan.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAIwPoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:33:29.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "S_DonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_DonHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Service\\S_DonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_DonHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Service\\S_DonHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABADAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:54:59.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Core.SanXuat.csproj",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Core.SanXuat.csproj",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Core.SanXuat.csproj",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Core.SanXuat.csproj",
+              "RelativeToolTip": "Core.SanXuat\\Core.SanXuat.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-08T06:03:53.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S_LenhSanXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Service\\S_LenhSanXuat.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Service\\S_LenhSanXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Service\\S_LenhSanXuat.cs",
+              "RelativeToolTip": "Core.SanXuat\\Service\\S_LenhSanXuat.cs",
+              "ViewState": "AgIAAFICAAAAAAAAAAAAAGsCAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:05:01.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PDFCreate.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\PDFCreate.cs",
+              "RelativeDocumentMoniker": "Common\\Utilities\\PDFCreate.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\PDFCreate.cs",
+              "RelativeToolTip": "Common\\Utilities\\PDFCreate.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAwwKoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T17:10:51.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "S_PhuongThucThanhToan.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_PhuongThucThanhToan.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Service\\S_PhuongThucThanhToan.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_PhuongThucThanhToan.cs",
+              "RelativeToolTip": "Core.BanHang\\Service\\S_PhuongThucThanhToan.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAA/wIMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:33:36.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "S_DonMua.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Service\\S_DonMua.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Service\\S_DonMua.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Service\\S_DonMua.cs",
+              "RelativeToolTip": "Core.MuaHang\\Service\\S_DonMua.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAADwv0oBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:42:12.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "S_NhaCungCap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Service\\S_NhaCungCap.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Service\\S_NhaCungCap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Service\\S_NhaCungCap.cs",
+              "RelativeToolTip": "Core.MuaHang\\Service\\S_NhaCungCap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T20:07:06.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MRes_NhaCungCap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_NhaCungCap.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Response\\MRes_NhaCungCap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_NhaCungCap.cs",
+              "RelativeToolTip": "Core.MuaHang\\Response\\MRes_NhaCungCap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:18:05.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MReq_NhaCungCap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_NhaCungCap.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Request\\MReq_NhaCungCap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_NhaCungCap.cs",
+              "RelativeToolTip": "Core.MuaHang\\Request\\MReq_NhaCungCap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:18:19.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Core.Kho.csproj",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Core.Kho.csproj",
+              "RelativeDocumentMoniker": "Core.Kho\\Core.Kho.csproj",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Core.Kho.csproj",
+              "RelativeToolTip": "Core.Kho\\Core.Kho.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T18:36:36.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MRes_DonMua.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_DonMua.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Response\\MRes_DonMua.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_DonMua.cs",
+              "RelativeToolTip": "Core.MuaHang\\Response\\MRes_DonMua.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:42:40.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260107170417_dbInit.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20260107170417_dbInit.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20260107170417_dbInit.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20260107170417_dbInit.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20260107170417_dbInit.cs",
+              "ViewState": "AgIAABUDAAAAAAAAAAAmwC8DAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:04:17.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "S_Kho.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_Kho.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Service\\S_Kho.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_Kho.cs",
+              "RelativeToolTip": "Core.Kho\\Service\\S_Kho.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:05:52.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MRes_VatTu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_VatTu.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_VatTu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_VatTu.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_VatTu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T14:12:37.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "S_PhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_PhieuNhap.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Service\\S_PhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_PhieuNhap.cs",
+              "RelativeToolTip": "Core.Kho\\Service\\S_PhieuNhap.cs",
+              "ViewState": "AgIAAGABAAAAAAAAAADwv3ABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:00:32.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HoaDonBanController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\HoaDonBanController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyBanHang\\HoaDonBanController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\HoaDonBanController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyBanHang\\HoaDonBanController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwD4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:43:57.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "S_DonViTinh.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_DonViTinh.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Service\\S_DonViTinh.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_DonViTinh.cs",
+              "RelativeToolTip": "Core.BanHang\\Service\\S_DonViTinh.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T16:06:54.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MRes_khoVatTu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_khoVatTu.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_khoVatTu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_khoVatTu.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_khoVatTu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T14:45:09.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KhoController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\KhoController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyKho\\KhoController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\KhoController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyKho\\KhoController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:04:45.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MRes_KhoSanPham.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_KhoSanPham.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_KhoSanPham.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_KhoSanPham.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_KhoSanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:05:10.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "S_PhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_PhieuXuat.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Service\\S_PhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_PhieuXuat.cs",
+              "RelativeToolTip": "Core.Kho\\Service\\S_PhieuXuat.cs",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAAAPgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:02:54.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MRes_LenhSanXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_LenhSanXuat.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Response\\MRes_LenhSanXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_LenhSanXuat.cs",
+              "RelativeToolTip": "Core.SanXuat\\Response\\MRes_LenhSanXuat.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:06:38.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MRes_HoaDon.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_HoaDon.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_HoaDon.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_HoaDon.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_HoaDon.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:25:55.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MRes_DonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_DonHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_DonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_DonHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_DonHang.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA7wBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:55:30.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MRes_KhachHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_KhachHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_KhachHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_KhachHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_KhachHang.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:47:50.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyBanHang\\KhachHangController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\KhachHangController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyBanHang\\KhachHangController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:01:39.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T17:30:59.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "S_KhachHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_KhachHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Service\\S_KhachHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Service\\S_KhachHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Service\\S_KhachHang.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAwwM0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:42:47.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "KhoSanPham.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhoSanPham.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\KhoSanPham.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhoSanPham.cs",
+              "RelativeToolTip": "DataContext\\Entity\\KhoSanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:20:19.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\SanPham.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\SanPham.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\SanPham.cs",
+              "RelativeToolTip": "DataContext\\Entity\\SanPham.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:14:23.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MRes_SanPham.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_SanPham.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_SanPham.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_SanPham.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_SanPham.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:20:12.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20251230164028_asdl3.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251230164028_asdl3.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251230164028_asdl3.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251230164028_asdl3.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251230164028_asdl3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:40:28.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20251230144803_asdl.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251230144803_asdl.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251230144803_asdl.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251230144803_asdl.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251230144803_asdl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:48:04.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "S_SanPham.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_SanPham.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Service\\S_SanPham.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_SanPham.cs",
+              "RelativeToolTip": "Core.Kho\\Service\\S_SanPham.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowIoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:21:41.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MReq_SanPham.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_SanPham.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_SanPham.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_SanPham.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_SanPham.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:20:02.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LenhSX.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\LenhSX.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\LenhSX.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\LenhSX.cs",
+              "RelativeToolTip": "DataContext\\Entity\\LenhSX.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T06:29:34.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ChiTietCheTao.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietCheTao.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\ChiTietCheTao.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietCheTao.cs",
+              "RelativeToolTip": "DataContext\\Entity\\ChiTietCheTao.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T09:48:20.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\PhieuNhap.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\PhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\PhieuNhap.cs",
+              "RelativeToolTip": "DataContext\\Entity\\PhieuNhap.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:44:23.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\PhieuXuat.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\PhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\PhieuXuat.cs",
+              "RelativeToolTip": "DataContext\\Entity\\PhieuXuat.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA7wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:27:24.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\DonHang.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\DonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\DonHang.cs",
+              "RelativeToolTip": "DataContext\\Entity\\DonHang.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIAwwB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T04:23:12.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StringFormat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\StringFormat.cs",
+              "RelativeDocumentMoniker": "Common\\Utilities\\StringFormat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\StringFormat.cs",
+              "RelativeToolTip": "Common\\Utilities\\StringFormat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:55:34.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "VatTu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\VatTu.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\VatTu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\VatTu.cs",
+              "RelativeToolTip": "DataContext\\Entity\\VatTu.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:34:20.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\HoaDon.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\HoaDon.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\HoaDon.cs",
+              "RelativeToolTip": "DataContext\\Entity\\HoaDon.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:34:35.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MRes_DVTinh.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_DVTinh.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_DVTinh.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_DVTinh.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_DVTinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T16:07:19.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MReq_ChiTietDonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_ChiTietDonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_ChiTietDonHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_ChiTietDonHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T19:04:47.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MRes_ChiTietDonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_ChiTietDonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_ChiTietDonHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_ChiTietDonHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:58:49.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MReq_DonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_DonHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_DonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_DonHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_DonHang.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:55:48.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ChiTietDonHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\ChiTietDonHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietDonHang.cs",
+              "RelativeToolTip": "DataContext\\Entity\\ChiTietDonHang.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:48:24.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MReq_DVTinh.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_DVTinh.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_DVTinh.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_DVTinh.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_DVTinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T16:07:51.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ChiTietPhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietPhieuXuat.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\ChiTietPhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietPhieuXuat.cs",
+              "RelativeToolTip": "DataContext\\Entity\\ChiTietPhieuXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:55:36.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ChiTietPhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\ChiTietPhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietPhieuNhap.cs",
+              "RelativeToolTip": "DataContext\\Entity\\ChiTietPhieuNhap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:52:58.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ChiTietPhieu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietPhieu.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\ChiTietPhieu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietPhieu.cs",
+              "RelativeToolTip": "DataContext\\Entity\\ChiTietPhieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:54:57.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ChiTietDonNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietDonNhap.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\ChiTietDonNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\ChiTietDonNhap.cs",
+              "RelativeToolTip": "DataContext\\Entity\\ChiTietDonNhap.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:58:46.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MRes_ChiTietCheTao.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_ChiTietCheTao.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Response\\MRes_ChiTietCheTao.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_ChiTietCheTao.cs",
+              "RelativeToolTip": "Core.SanXuat\\Response\\MRes_ChiTietCheTao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:11:14.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DonViTinhController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\DonViTinhController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyBanHang\\DonViTinhController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\DonViTinhController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyBanHang\\DonViTinhController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:28:49.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwDwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:23:25.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "WebApi.http",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\WebApi.http",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.http",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\WebApi.http",
+              "RelativeToolTip": "WebApi\\WebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-24T13:01:34.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IQuanLyBanHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Interface\\IQuanLyBanHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Interface\\IQuanLyBanHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Interface\\IQuanLyBanHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Interface\\IQuanLyBanHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:51:32.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T15:19:12.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Common.csproj",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Common.csproj",
+              "RelativeDocumentMoniker": "Common\\Common.csproj",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Common.csproj",
+              "RelativeToolTip": "Common\\Common.csproj",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-20T17:46:28.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "DVTinh.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\DVTinh.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\DVTinh.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\DVTinh.cs",
+              "RelativeToolTip": "DataContext\\Entity\\DVTinh.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:19:11.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MRes_PhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_PhieuNhap.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_PhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_PhieuNhap.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_PhieuNhap.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T14:59:17.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "VatTuController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\VatTuController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyKho\\VatTuController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\VatTuController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyKho\\VatTuController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T14:20:27.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "S_VatTu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_VatTu.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Service\\S_VatTu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Service\\S_VatTu.cs",
+              "RelativeToolTip": "Core.Kho\\Service\\S_VatTu.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwG0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T13:41:51.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyKho\\SanPhamController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\SanPhamController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyKho\\SanPhamController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:30:40.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "PhuongThucThanhToan.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\PhuongThucThanhToan.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\PhuongThucThanhToan.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\PhuongThucThanhToan.cs",
+              "RelativeToolTip": "DataContext\\Entity\\PhuongThucThanhToan.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:55:12.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "DonNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\DonNhap.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\DonNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\DonNhap.cs",
+              "RelativeToolTip": "DataContext\\Entity\\DonNhap.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAD4vx0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:44:12.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-02T08:43:06.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "DonNhapController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\MuaHang\\DonNhapController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\MuaHang\\DonNhapController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\MuaHang\\DonNhapController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\MuaHang\\DonNhapController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwDIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T13:31:56.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IQuanLyMuaHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Interface\\IQuanLyMuaHang.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Interface\\IQuanLyMuaHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Interface\\IQuanLyMuaHang.cs",
+              "RelativeToolTip": "Core.MuaHang\\Interface\\IQuanLyMuaHang.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:17:24.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PhieuNhapController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\PhieuNhapController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyKho\\PhieuNhapController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\PhieuNhapController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyKho\\PhieuNhapController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T17:17:15.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "MReq_DonMua.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_DonMua.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Request\\MReq_DonMua.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_DonMua.cs",
+              "RelativeToolTip": "Core.MuaHang\\Request\\MReq_DonMua.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:43:06.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MReq_ChiTietDonMua.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_ChiTietDonMua.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Request\\MReq_ChiTietDonMua.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_ChiTietDonMua.cs",
+              "RelativeToolTip": "Core.MuaHang\\Request\\MReq_ChiTietDonMua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:44:01.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "MRes_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Response\\MRes_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_Pagination.cs",
+              "RelativeToolTip": "Core.MuaHang\\Response\\MRes_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:19:53.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "MRes_ChiTietDonMua.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_ChiTietDonMua.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Response\\MRes_ChiTietDonMua.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Response\\MRes_ChiTietDonMua.cs",
+              "RelativeToolTip": "Core.MuaHang\\Response\\MRes_ChiTietDonMua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:43:44.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "PhieuXuatController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\PhieuXuatController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyKho\\PhieuXuatController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyKho\\PhieuXuatController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyKho\\PhieuXuatController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwC8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T23:35:18.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "MRes_PhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_PhieuXuat.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_PhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_PhieuXuat.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_PhieuXuat.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:03:10.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "MReq_ChiTietPhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_ChiTietPhieuXuat.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_ChiTietPhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_ChiTietPhieuXuat.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_ChiTietPhieuXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T23:38:57.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "MReq_PhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_PhieuXuat.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_PhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_PhieuXuat.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_PhieuXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:03:18.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "KhoChua.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhoChua.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\KhoChua.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhoChua.cs",
+              "RelativeToolTip": "DataContext\\Entity\\KhoChua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:26:25.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ApiDataResponse.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\ApiResponse\\ApiDataResponse.cs",
+              "RelativeDocumentMoniker": "Common\\ApiResponse\\ApiDataResponse.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\ApiResponse\\ApiDataResponse.cs",
+              "RelativeToolTip": "Common\\ApiResponse\\ApiDataResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:26:49.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Core.QuanLyNhanSu.csproj",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Core.QuanLyNhanSu.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-08T07:42:42.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "NhaCungCap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\NhaCungCap.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\NhaCungCap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\NhaCungCap.cs",
+              "RelativeToolTip": "DataContext\\Entity\\NhaCungCap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:36:48.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "MReq_PhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_PhieuNhap.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_PhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_PhieuNhap.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_PhieuNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:00:08.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "MReq_ChiTietPhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_ChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_ChiTietPhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_ChiTietPhieuNhap.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_ChiTietPhieuNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:16:43.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "MRes_ChiTietPhieuXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_ChiTietPhieuXuat.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_ChiTietPhieuXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_ChiTietPhieuXuat.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_ChiTietPhieuXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T23:38:22.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "MRes_Kho.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_Kho.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_Kho.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_Kho.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_Kho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:13:06.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "MRes_ChiTietPhieuNhap.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_ChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_ChiTietPhieuNhap.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_ChiTietPhieuNhap.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_ChiTietPhieuNhap.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:15:51.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "PhongBanCode.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\PhongBanCode.cs",
+              "RelativeDocumentMoniker": "Common\\Utilities\\PhongBanCode.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\Utilities\\PhongBanCode.cs",
+              "RelativeToolTip": "Common\\Utilities\\PhongBanCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:52:32.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "JwtSetting.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\JwtSecurity\\JwtSetting.cs",
+              "RelativeDocumentMoniker": "Common\\JwtSecurity\\JwtSetting.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\JwtSecurity\\JwtSetting.cs",
+              "RelativeToolTip": "Common\\JwtSecurity\\JwtSetting.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwDEAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:35:33.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ExceptionMesseger.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\ExceptionResponse\\ExceptionMesseger.cs",
+              "RelativeDocumentMoniker": "Common\\ExceptionResponse\\ExceptionMesseger.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\ExceptionResponse\\ExceptionMesseger.cs",
+              "RelativeToolTip": "Common\\ExceptionResponse\\ExceptionMesseger.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:13:42.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ExceptionCode.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\ExceptionResponse\\ExceptionCode.cs",
+              "RelativeDocumentMoniker": "Common\\ExceptionResponse\\ExceptionCode.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\ExceptionResponse\\ExceptionCode.cs",
+              "RelativeToolTip": "Common\\ExceptionResponse\\ExceptionCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:10:30.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "MReq_PhieuNhapLenhSanXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_PhieuNhapLenhSanXuat.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Request\\MReq_PhieuNhapLenhSanXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_PhieuNhapLenhSanXuat.cs",
+              "RelativeToolTip": "Core.SanXuat\\Request\\MReq_PhieuNhapLenhSanXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T05:10:45.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "LenhSanXuatController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLySanXuat\\LenhSanXuatController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLySanXuat\\LenhSanXuatController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLySanXuat\\LenhSanXuatController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLySanXuat\\LenhSanXuatController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwD8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:03:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "NhaCungCapController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\MuaHang\\NhaCungCapController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\MuaHang\\NhaCungCapController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\MuaHang\\NhaCungCapController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\MuaHang\\NhaCungCapController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:15:58.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "MRes_PhuongThucThanhToan.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_PhuongThucThanhToan.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_PhuongThucThanhToan.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_PhuongThucThanhToan.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_PhuongThucThanhToan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:35:00.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "MReq_SanXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_SanXuat.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_SanXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_SanXuat.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_SanXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:29:36.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Core.MuaHang.csproj",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Core.MuaHang.csproj",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Core.MuaHang.csproj",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Core.MuaHang.csproj",
+              "RelativeToolTip": "Core.MuaHang\\Core.MuaHang.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-08T06:03:35.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IQuanLySanXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Interface\\IQuanLySanXuat.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Interface\\IQuanLySanXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Interface\\IQuanLySanXuat.cs",
+              "RelativeToolTip": "Core.SanXuat\\Interface\\IQuanLySanXuat.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T18:11:00.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "MReq_HoaDon.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_HoaDon.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_HoaDon.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_HoaDon.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_HoaDon.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA+wBAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:26:04.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "20251217022911_DbInit.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251217022911_DbInit.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251217022911_DbInit.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251217022911_DbInit.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251217022911_DbInit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:29:12.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "KhoVatTu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhoVatTu.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\KhoVatTu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhoVatTu.cs",
+              "RelativeToolTip": "DataContext\\Entity\\KhoVatTu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:19:08.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "MReq_LenhSanXuat.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_LenhSanXuat.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Request\\MReq_LenhSanXuat.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_LenhSanXuat.cs",
+              "RelativeToolTip": "Core.SanXuat\\Request\\MReq_LenhSanXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:07:50.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "MReq_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_Pagination.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:52:26.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "MyQuery.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\DataQuery\\MyQuery.cs",
+              "RelativeDocumentMoniker": "DataContext\\DataQuery\\MyQuery.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\DataQuery\\MyQuery.cs",
+              "RelativeToolTip": "DataContext\\DataQuery\\MyQuery.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAASwCcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:14:56.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "MReq_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.MuaHang\\Request\\MReq_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.MuaHang\\Request\\MReq_Pagination.cs",
+              "RelativeToolTip": "Core.MuaHang\\Request\\MReq_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T18:20:16.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "MRes_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_Pagination.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:19:17.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "MReq_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_Pagination.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:18:47.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "IQuanLyKho.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Interface\\IQuanLyKho.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Interface\\IQuanLyKho.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Interface\\IQuanLyKho.cs",
+              "RelativeToolTip": "Core.Kho\\Interface\\IQuanLyKho.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T18:38:44.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "MReq_Kho.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_Kho.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_Kho.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_Kho.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_Kho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:13:15.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "MReq_VatTuCanDung.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_VatTuCanDung.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_VatTuCanDung.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_VatTuCanDung.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_VatTuCanDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:12:46.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "MReq_VatTu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_VatTu.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Request\\MReq_VatTu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Request\\MReq_VatTu.cs",
+              "RelativeToolTip": "Core.Kho\\Request\\MReq_VatTu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T14:12:47.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "BasicModel.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\BasicModel.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\BasicModel.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\BasicModel.cs",
+              "RelativeToolTip": "DataContext\\Entity\\BasicModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T10:44:35.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "MRes_Login.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Response\\MRes_Login.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Response\\MRes_Login.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Response\\MRes_Login.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Response\\MRes_Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T01:35:38.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "NhanSuController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyNhanSu\\NhanSuController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyNhanSu\\NhanSuController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyNhanSu\\NhanSuController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyNhanSu\\NhanSuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:04:03.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "S_NhanSu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Service\\S_NhanSu.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Service\\S_NhanSu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Service\\S_NhanSu.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Service\\S_NhanSu.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAABYBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:30:06.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "MReq_NhanSu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Request\\MReq_NhanSu.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Request\\MReq_NhanSu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Request\\MReq_NhanSu.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Request\\MReq_NhanSu.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:43:43.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "MReq_PhuongThucThanhToan.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_PhuongThucThanhToan.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_PhuongThucThanhToan.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_PhuongThucThanhToan.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_PhuongThucThanhToan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:35:29.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20251212150722_vlxxzz.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251212150722_vlxxzz.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251212150722_vlxxzz.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251212150722_vlxxzz.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251212150722_vlxxzz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:07:22.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "MReq_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Request\\MReq_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_Pagination.cs",
+              "RelativeToolTip": "Core.SanXuat\\Request\\MReq_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:06:00.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "MRes_VatTuCanDung.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_VatTuCanDung.cs",
+              "RelativeDocumentMoniker": "Core.Kho\\Response\\MRes_VatTuCanDung.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.Kho\\Response\\MRes_VatTuCanDung.cs",
+              "RelativeToolTip": "Core.Kho\\Response\\MRes_VatTuCanDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:12:16.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "VatTuCanDung.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\VatTuCanDung.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\VatTuCanDung.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\VatTuCanDung.cs",
+              "RelativeToolTip": "DataContext\\Entity\\VatTuCanDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:03:29.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "IRequestQueue.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Middleware\\QueueRequest\\IRequestQueue.cs",
+              "RelativeDocumentMoniker": "WebApi\\Middleware\\QueueRequest\\IRequestQueue.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Middleware\\QueueRequest\\IRequestQueue.cs",
+              "RelativeToolTip": "WebApi\\Middleware\\QueueRequest\\IRequestQueue.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T05:14:49.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "RequestQueueMiddleware.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Middleware\\QueueRequest\\RequestQueueMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApi\\Middleware\\QueueRequest\\RequestQueueMiddleware.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Middleware\\QueueRequest\\RequestQueueMiddleware.cs",
+              "RelativeToolTip": "WebApi\\Middleware\\QueueRequest\\RequestQueueMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T05:15:35.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "RequestInfo.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Middleware\\RequestInfo.cs",
+              "RelativeDocumentMoniker": "WebApi\\Middleware\\RequestInfo.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Middleware\\RequestInfo.cs",
+              "RelativeToolTip": "WebApi\\Middleware\\RequestInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T05:14:15.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "MReq_KhachHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_KhachHang.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Request\\MReq_KhachHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Request\\MReq_KhachHang.cs",
+              "RelativeToolTip": "Core.BanHang\\Request\\MReq_KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:20:49.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "PhuongThucThanhToanController.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\PhuongThucThanhToanController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuanLyBanHang\\PhuongThucThanhToanController.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Controllers\\QuanLyBanHang\\PhuongThucThanhToanController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuanLyBanHang\\PhuongThucThanhToanController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:47:36.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "NhanSu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\NhanSu.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\NhanSu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\NhanSu.cs",
+              "RelativeToolTip": "DataContext\\Entity\\NhanSu.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T02:04:22.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "20251208172413_d1.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251208172413_d1.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251208172413_d1.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251208172413_d1.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251208172413_d1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:24:13.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "20251208172935_d1.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251208172935_d1.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251208172935_d1.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251208172935_d1.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251208172935_d1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:29:35.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhachHang.cs",
+              "RelativeDocumentMoniker": "DataContext\\Entity\\KhachHang.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Entity\\KhachHang.cs",
+              "RelativeToolTip": "DataContext\\Entity\\KhachHang.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T04:23:12.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "20251207051405_DbInit1.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207051405_DbInit1.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251207051405_DbInit1.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207051405_DbInit1.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251207051405_DbInit1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T05:14:05.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "20251207050731_DbInit.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207050731_DbInit.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251207050731_DbInit.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207050731_DbInit.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251207050731_DbInit.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T05:07:31.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "20251207045718_DbInit.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207045718_DbInit.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251207045718_DbInit.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207045718_DbInit.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251207045718_DbInit.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T04:57:18.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "20251207003937_12.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207003937_12.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251207003937_12.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251207003937_12.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251207003937_12.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T00:39:38.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "20251206151624_i1.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251206151624_i1.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251206151624_i1.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251206151624_i1.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251206151624_i1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:16:24.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "MReq_ChiTietCheTao.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_ChiTietCheTao.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Request\\MReq_ChiTietCheTao.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_ChiTietCheTao.cs",
+              "RelativeToolTip": "Core.SanXuat\\Request\\MReq_ChiTietCheTao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:11:03.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "MRes_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Response\\MRes_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_Pagination.cs",
+              "RelativeToolTip": "Core.SanXuat\\Response\\MRes_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:06:21.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "MReq_CongThuc.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_CongThuc.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Request\\MReq_CongThuc.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Request\\MReq_CongThuc.cs",
+              "RelativeToolTip": "Core.SanXuat\\Request\\MReq_CongThuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:13:13.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "MRes_CongThuc.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_CongThuc.cs",
+              "RelativeDocumentMoniker": "Core.SanXuat\\Response\\MRes_CongThuc.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.SanXuat\\Response\\MRes_CongThuc.cs",
+              "RelativeToolTip": "Core.SanXuat\\Response\\MRes_CongThuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:13:25.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "MRes_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.BanHang\\Response\\MRes_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.BanHang\\Response\\MRes_Pagination.cs",
+              "RelativeToolTip": "Core.BanHang\\Response\\MRes_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:53:10.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "20251206014647_update_db123456.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251206014647_update_db123456.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251206014647_update_db123456.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251206014647_update_db123456.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251206014647_update_db123456.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T01:46:47.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "MRes_NhanSu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Response\\MRes_NhanSu.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Response\\MRes_NhanSu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Response\\MRes_NhanSu.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Response\\MRes_NhanSu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:22:01.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "20251201200530_update_db2.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251201200530_update_db2.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251201200530_update_db2.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251201200530_update_db2.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251201200530_update_db2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T20:05:30.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "RefreshTokenModel.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\JwtSecurity\\RefreshTokenModel.cs",
+              "RelativeDocumentMoniker": "Common\\JwtSecurity\\RefreshTokenModel.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Common\\JwtSecurity\\RefreshTokenModel.cs",
+              "RelativeToolTip": "Common\\JwtSecurity\\RefreshTokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:55:28.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "MReq_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Request\\MReq_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Request\\MReq_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Request\\MReq_Pagination.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Request\\MReq_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:50:29.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "MRes_Pagination.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Response\\MRes_Pagination.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Response\\MRes_Pagination.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Response\\MRes_Pagination.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Response\\MRes_Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:43:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 151,
+              "Title": "IQuanLyNhanSu.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Interface\\IQuanLyNhanSu.cs",
+              "RelativeDocumentMoniker": "Core.QuanLyNhanSu\\Interface\\IQuanLyNhanSu.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\Core.QuanLyNhanSu\\Interface\\IQuanLyNhanSu.cs",
+              "RelativeToolTip": "Core.QuanLyNhanSu\\Interface\\IQuanLyNhanSu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:00:15.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 152,
+              "Title": "20251108180608_DbInit.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108180608_DbInit.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251108180608_DbInit.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108180608_DbInit.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251108180608_DbInit.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T18:06:09.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 153,
+              "Title": "20251108180140_UpdateTable.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108180140_UpdateTable.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251108180140_UpdateTable.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108180140_UpdateTable.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251108180140_UpdateTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T18:01:40.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 154,
+              "Title": "20251108175248_Update-Table.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108175248_Update-Table.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20251108175248_Update-Table.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\DataContext\\Migrations\\20251108175248_Update-Table.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20251108175248_Update-Table.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T17:52:48.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 155,
+              "Title": "HttpUtillties.cs",
+              "DocumentMoniker": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Helper\\HttpUtillties.cs",
+              "RelativeDocumentMoniker": "WebApi\\Helper\\HttpUtillties.cs",
+              "ToolTip": "E:\\DoAnERP\\back-end\\API_ERP_QuyTrinhSanXuat\\WebApi\\Helper\\HttpUtillties.cs",
+              "RelativeToolTip": "WebApi\\Helper\\HttpUtillties.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:25:22.507Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

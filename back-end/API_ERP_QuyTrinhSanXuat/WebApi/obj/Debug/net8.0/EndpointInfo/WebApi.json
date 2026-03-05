@@ -1,0 +1,3671 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/QuanLyBanHang/DonHang": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/baogia": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/baogia/{id}": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/{id}": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/add": {
+      "post": {
+        "tags": [
+          "DonHang"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/baogia/add": {
+      "post": {
+        "tags": [
+          "DonHang"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/update/{id}": {
+      "put": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/delete/{id}": {
+      "delete": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/chuyenbaogiathanhdonhang/{id}": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/updateState/{id}/{state}": {
+      "put": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/kiemtratonkho/{sanphamId}/{donhangId}": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "sanphamId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "donhangId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/TaoLenhSanXuat": {
+      "post": {
+        "tags": [
+          "DonHang"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_SanXuat"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_SanXuat"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_SanXuat"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/taohoadon": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "donHangid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "createBy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/GuiEmail": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonHang/thanhtoan": {
+      "get": {
+        "tags": [
+          "DonHang"
+        ],
+        "parameters": [
+          {
+            "name": "donHangid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "createBy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/DonNhap": {
+      "get": {
+        "tags": [
+          "DonNhap"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/DonNhap/{id}": {
+      "get": {
+        "tags": [
+          "DonNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/DonNhap/add": {
+      "post": {
+        "tags": [
+          "DonNhap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonMua"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonMua"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonMua"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/DonNhap/update/{id}": {
+      "put": {
+        "tags": [
+          "DonNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonMua"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonMua"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DonMua"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/DonNhap/delete/{id}": {
+      "delete": {
+        "tags": [
+          "DonNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/DonNhap/update/state": {
+      "put": {
+        "tags": [
+          "DonNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonViTinh": {
+      "get": {
+        "tags": [
+          "DonViTinh"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonViTinh/{id}": {
+      "get": {
+        "tags": [
+          "DonViTinh"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonViTinh/add": {
+      "post": {
+        "tags": [
+          "DonViTinh"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DVTinh"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DVTinh"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DVTinh"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonViTinh/update/{id}": {
+      "put": {
+        "tags": [
+          "DonViTinh"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DVTinh"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DVTinh"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_DVTinh"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/DonViTinh/delete/{id}": {
+      "delete": {
+        "tags": [
+          "DonViTinh"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan": {
+      "get": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/{id}": {
+      "get": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/add": {
+      "post": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_HoaDon"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_HoaDon"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_HoaDon"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/update/{id}": {
+      "put": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_HoaDon"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_HoaDon"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_HoaDon"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/delete/{id}": {
+      "delete": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/LayHoaDon": {
+      "get": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "donHangId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/state/{id}/{state}": {
+      "put": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/HoaDonBan/email/{id}": {
+      "get": {
+        "tags": [
+          "HoaDonBan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/KhachHang": {
+      "get": {
+        "tags": [
+          "KhachHang"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/KhachHang/{id}": {
+      "get": {
+        "tags": [
+          "KhachHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/KhachHang/add": {
+      "post": {
+        "tags": [
+          "KhachHang"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_KhachHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_KhachHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_KhachHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/KhachHang/update/{id}": {
+      "put": {
+        "tags": [
+          "KhachHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_KhachHang"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_KhachHang"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_KhachHang"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/KhachHang/delete/{id}": {
+      "delete": {
+        "tags": [
+          "KhachHang"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/Kho": {
+      "get": {
+        "tags": [
+          "Kho"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/Kho/add": {
+      "post": {
+        "tags": [
+          "Kho"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_Kho"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_Kho"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_Kho"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/Kho/{id}": {
+      "get": {
+        "tags": [
+          "Kho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/Kho/khosanpham": {
+      "get": {
+        "tags": [
+          "Kho"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/Kho/khovattu": {
+      "get": {
+        "tags": [
+          "Kho"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat": {
+      "get": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/{id}": {
+      "get": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/add": {
+      "post": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_LenhSanXuat"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_LenhSanXuat"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_LenhSanXuat"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/update/{id}": {
+      "put": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_LenhSanXuat"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_LenhSanXuat"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_LenhSanXuat"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/delete/{id}": {
+      "delete": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/kiemtravattu/{lenhSanXuatId}/{vatTuId}": {
+      "get": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "parameters": [
+          {
+            "name": "lenhSanXuatId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "vatTuId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/state/{id}/{state}": {
+      "put": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLySanXuat/LenhSanXuat/bosung": {
+      "post": {
+        "tags": [
+          "LenhSanXuat"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhapLenhSanXuat"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhapLenhSanXuat"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhapLenhSanXuat"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/NhaCungCap": {
+      "get": {
+        "tags": [
+          "NhaCungCap"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/NhaCungCap/{id}": {
+      "get": {
+        "tags": [
+          "NhaCungCap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/NhaCungCap/add": {
+      "post": {
+        "tags": [
+          "NhaCungCap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhaCungCap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhaCungCap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhaCungCap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/NhaCungCap/update/{id}": {
+      "put": {
+        "tags": [
+          "NhaCungCap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhaCungCap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhaCungCap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhaCungCap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyMuaHang/NhaCungCap/delete/{id}": {
+      "delete": {
+        "tags": [
+          "NhaCungCap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu": {
+      "get": {
+        "tags": [
+          "NhanSu"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu/{id}": {
+      "get": {
+        "tags": [
+          "NhanSu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu/add": {
+      "post": {
+        "tags": [
+          "NhanSu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu/update/{id}": {
+      "put": {
+        "tags": [
+          "NhanSu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu/delete/{id}": {
+      "delete": {
+        "tags": [
+          "NhanSu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu/login": {
+      "post": {
+        "tags": [
+          "NhanSu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_Login"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_Login"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_Login"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyNhanSu/NhanSu/khoitao": {
+      "post": {
+        "tags": [
+          "NhanSu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_NhanSu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuNhap": {
+      "get": {
+        "tags": [
+          "PhieuNhap"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuNhap/add": {
+      "post": {
+        "tags": [
+          "PhieuNhap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuNhap/{id}": {
+      "get": {
+        "tags": [
+          "PhieuNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuNhap/update/{id}": {
+      "put": {
+        "tags": [
+          "PhieuNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuNhap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuNhap/delete/{id}": {
+      "delete": {
+        "tags": [
+          "PhieuNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuNhap/update/state": {
+      "put": {
+        "tags": [
+          "PhieuNhap"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuXuat": {
+      "get": {
+        "tags": [
+          "PhieuXuat"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuXuat/add": {
+      "post": {
+        "tags": [
+          "PhieuXuat"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuXuat"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuXuat"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuXuat"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuXuat/{id}": {
+      "get": {
+        "tags": [
+          "PhieuXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuXuat/update/{id}": {
+      "put": {
+        "tags": [
+          "PhieuXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuXuat"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuXuat"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhieuXuat"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuXuat/delete/{id}": {
+      "delete": {
+        "tags": [
+          "PhieuXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/PhieuXuat/update/state": {
+      "put": {
+        "tags": [
+          "PhieuXuat"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/PhuongThucThanhToan": {
+      "get": {
+        "tags": [
+          "PhuongThucThanhToan"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/PhuongThucThanhToan/{id}": {
+      "get": {
+        "tags": [
+          "PhuongThucThanhToan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/PhuongThucThanhToan/add": {
+      "post": {
+        "tags": [
+          "PhuongThucThanhToan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhuongThucThanhToan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhuongThucThanhToan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhuongThucThanhToan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/PhuongThucThanhToan/update/{id}": {
+      "put": {
+        "tags": [
+          "PhuongThucThanhToan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhuongThucThanhToan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhuongThucThanhToan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_PhuongThucThanhToan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyBanHang/PhuongThucThanhToan/delete/{id}": {
+      "delete": {
+        "tags": [
+          "PhuongThucThanhToan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/SanPham": {
+      "get": {
+        "tags": [
+          "SanPham"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/SanPham/add": {
+      "post": {
+        "tags": [
+          "SanPham"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_SanPham"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_SanPham"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_SanPham"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/SanPham/{id}": {
+      "get": {
+        "tags": [
+          "SanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/VatTu": {
+      "get": {
+        "tags": [
+          "VatTu"
+        ],
+        "parameters": [
+          {
+            "name": "PageNunber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Seacrch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/VatTu/add": {
+      "post": {
+        "tags": [
+          "VatTu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_VatTu"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_VatTu"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MReq_VatTu"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/VatTu/{id}": {
+      "get": {
+        "tags": [
+          "VatTu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QuanLyKho/VatTu/delete/{id}": {
+      "delete": {
+        "tags": [
+          "VatTu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MReq_ChiTietCheTao": {
+        "type": "object",
+        "properties": {
+          "lenhSXId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vatTuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "giaVatTu": {
+            "type": "number",
+            "format": "double"
+          },
+          "soLuongCan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dvTinhId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thanhTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "trangThai": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_ChiTietDonMua": {
+        "type": "object",
+        "properties": {
+          "donNhapId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vatTuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soLuongHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "donGia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_ChiTietPhieuNhap": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vatTuId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soLuongHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "donGia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_ChiTietPhieuXuat": {
+        "type": "object",
+        "properties": {
+          "sanPhamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soLuongHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "donGia": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_DVTinh": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDVi": {
+            "type": "string",
+            "nullable": true
+          },
+          "kyHieu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mota": {
+            "type": "string",
+            "nullable": true
+          },
+          "heSo": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_DonHang": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maDH": {
+            "type": "string",
+            "nullable": true
+          },
+          "hetHan": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hieuLuc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayDatHang": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ngayGiaoHang": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "khachHangId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "phuongThucThanhToanId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "khoChuaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chiTietDonHangs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MRes_ChiTietDonHang"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_DonMua": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maDGH": {
+            "type": "string",
+            "nullable": true
+          },
+          "thoiGianGiao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "nhaCungCapId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khoChuaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chiTietDonNhaps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MReq_ChiTietDonMua"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_HoaDon": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maHD": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayLap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayTra": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngayVaoSo": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "tinhTrangHoaDon": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donHangId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "donNhapId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_KhachHang": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hoTenKh": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_Kho": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenKho": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChiKho": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_LenhSanXuat": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maLenhSX": {
+            "type": "string",
+            "nullable": true
+          },
+          "soLuongSX": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "batDauSX": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ketThucSX": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "trangThaiLenh": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sanPhamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khoChuaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donHangId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chiTietCheTaos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MReq_ChiTietCheTao"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_Login": {
+        "type": "object",
+        "properties": {
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_NhaCungCap": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenNCC": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "maSoThue": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_NhanSu": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoTenNhanSu": {
+            "type": "string",
+            "nullable": true
+          },
+          "gioiTinh": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          },
+          "chucVu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phongBan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nhanSuId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_PhieuNhap": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maPN": {
+            "type": "string",
+            "nullable": true
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "nhaCungCapId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donNhapId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "khoChuaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "chiTietPhieuNhaps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MReq_ChiTietPhieuNhap"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_PhieuNhapLenhSanXuat": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lenhSanXuatId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vatTuId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_PhieuXuat": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maPX": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaChi": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "khoChuaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khachHangId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chiTietPhieuXuats": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MReq_ChiTietPhieuXuat"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_PhuongThucThanhToan": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDieuKhoan": {
+            "type": "string",
+            "nullable": true
+          },
+          "soPhanTramTraTruoc": {
+            "type": "number",
+            "format": "double"
+          },
+          "soKyTra": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tienTraMoiKy": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_SanPham": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenSP": {
+            "type": "string",
+            "nullable": true
+          },
+          "giaGocSP": {
+            "type": "number",
+            "format": "double"
+          },
+          "loiNhuan": {
+            "type": "number",
+            "format": "double"
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "luongTonToiThieu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "hanSanXuat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vatTuCanDungs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MReq_VatTuCanDung"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_SanXuat": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sanPhamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "donHangId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soLuongMua": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "trangThai": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "khoChuaId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_VatTu": {
+        "type": "object",
+        "properties": {
+          "createAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updateAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "updateBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenVatTu": {
+            "type": "string",
+            "nullable": true
+          },
+          "giaBan": {
+            "type": "number",
+            "format": "double"
+          },
+          "mota": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinhAnh": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "luongTonToiThieu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dvTinhVtuId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MReq_VatTuCanDung": {
+        "type": "object",
+        "properties": {
+          "sanPhamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vatTuId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "soLuongCan": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MRes_ChiTietDonHang": {
+        "type": "object",
+        "properties": {
+          "donHangId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sanPhamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thanhTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "soLuongHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "thue": {
+            "type": "number",
+            "format": "double"
+          },
+          "donGia": {
+            "type": "number",
+            "format": "double"
+          },
+          "trangThai": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dvTinhId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Nhập: <strong>Bearer {your-token-here}</strong>",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\bin\Debug\net8.0\DataContext.deps.json
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\bin\Debug\net8.0\DataContext.runtimeconfig.json
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\bin\Debug\net8.0\DataContext.dll
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\bin\Debug\net8.0\DataContext.pdb
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.csproj.AssemblyReference.cache
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.GeneratedMSBuildEditorConfig.editorconfig
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.AssemblyInfoInputs.cache
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.AssemblyInfo.cs
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.csproj.CoreCompileInputs.cache
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.sourcelink.json
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.dll
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\refint\DataContext.dll
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.pdb
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\DataContext.genruntimeconfig.cache
+E:\DoAnERP\back-end\API_ERP_QuyTrinhSanXuat\DataContext\obj\Debug\net8.0\ref\DataContext.dll

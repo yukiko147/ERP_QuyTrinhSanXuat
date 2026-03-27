@@ -4,17 +4,16 @@
 Hệ thống ERP mô-đun hóa cho doanh nghiệp vừa và nhỏ.
 
 ## Chức năng chính
-- Bán hàng: Quản lý đơn hàng, khách hàng, hóa đơn, báo cáo doanh số
-- Mua hàng: Quản lý đơn mua, nhà cung cấp, công nợ, báo cáo
-- Kho: Quản lý nhập xuất tồn, kiểm kê, cảnh báo tồn kho
-- Kế toán: Phiếu thu/chi, sổ quỹ, báo cáo tài chính
-- Nhân sự: Hồ sơ nhân viên, chấm công, tính lương
-- Sản xuất: Lệnh sản xuất, định mức, tiến độ, báo cáo hiệu suất
+- Đăng nhập, đăng xuất  
+- Quản lý tài khoản, phân quyền  
+- Quản lý đơn hàng bán và xuất kho  
+- Quản lý đơn hàng mua và nhập kho  
+- Quản lý sản xuất và số lượng tồn trong kho
 
 ## Công nghệ
-- Front-end: ReactJS, Vite, TailwindCSS, Firebase/Supabase
-- Back-end: ASP.NET Core 6/7, Entity Framework Core, JWT
-- Database: SQL Server (script khởi tạo: SQLQuery1.sql)
+- Front-end: ReactJS, Vite, TailwindCSS
+- Back-end: ASP.NET Core 8, Entity Framework Core
+- Database: SQL Server 
 
 ## Triển khai
 
@@ -42,7 +41,3 @@ dotnet run
 - `back-end/API_ERP_QuyTrinhSanXuat/Core.*`: Module nghiệp vụ
 - `back-end/API_ERP_QuyTrinhSanXuat/WebApi/Controllers/`: API controllers
 - `back-end/API_ERP_QuyTrinhSanXuat/DataContext/`: Kết nối, truy vấn DB
-
-## Đóng góp
-- Tuân thủ quy tắc Git, code review, tài liệu hóa rõ ràng
-- Ưu tiên clean code, maintainability, teamwork
